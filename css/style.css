@@ -196,8 +196,9 @@ h1 {
     font-family: "Nunito", sans-serif;
     text-align: center;
     justify-content: center;
+    text-align: center;
     position: relative;
-    padding: 15px;
+    padding: 5px;
     width: 45%;
     height: 40px;
     background-color: #836382;
@@ -341,10 +342,9 @@ figure {
 }
 .la_container {
     columns: auto 4;
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin-top: 75px;
-    margin-left: 8.6%;
 }
 .la_h3 {
     margin: 15px;
@@ -641,7 +641,7 @@ input, select {
     .package_background {
         display: inline-block;
         height: 1050px;
-        width: 26.5%;
+        min-width: 15%;
     }
     .package_name {
         font-size: 26px;
@@ -654,6 +654,25 @@ input, select {
     }
     .packages {
         min-width: 232px;
+    }
+    .about_button {
+        font-size: 24px;
+        width: 65%;
+    }
+    .logo_footer {
+        height: 90px;
+        width: 90px;
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    .sm_text {
+        font-size: 12px;
+    }
+    .handle {
+        font-size: 10px;
+    }
+    .contact {
+        margin-left: 50px;
     }
 }
 
@@ -682,7 +701,10 @@ input, select {
     }
     .hero_img {
         margin-top: 190px;
-    }     
+    }   
+    .about_button {
+        font-size: 20px;
+    }  
 }
 
 /* ===== MOBILE: Media queries for small mobile resolution. ===== */
