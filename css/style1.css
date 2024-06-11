@@ -86,8 +86,7 @@ h5 {
 /*==========Landing Page============= */
 .hero_img {
     width: 100%;
-    max-height: 1250px;
-    height: auto;
+    height: 1250px;
 }
 .landing_page {
     position: relative;
@@ -104,17 +103,15 @@ h1 {
     font-size: 40px;
     font-family: "Nunito", sans-serif;
     text-align: center;
+    width: auto;
     position: absolute;
     padding: 15px;
-    top: 85%;
-    left: 54%;
+    top: 1000px;
+    left: 815px;
     background: rgba(182, 182, 182, 0.65);
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     display: flex;
-    -ms-transform: translate(-85%,-54%);
-    transform: translate(-85%,-54%);
-    margin: 0;
 }
 .button:hover {
     background: rgba(95, 95, 95, 0.85);
@@ -122,108 +119,75 @@ h1 {
 
 /* ==========About============= */
 /* about_header and about_box are to make the layered effect of the section headings */
-
+.about_header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 11%;
+    margin: 75px 775px 0 775px;
+    padding: 5px 40px;
+    background-color: #836382;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow: 15px 15px 0 0 #ea90e9;
+    z-index: 50;
+}
 .about_info {
     display: flex;
-    flex-direction: column;
     background-color: #9c359b;
     width: 80%;
     height: 1000px;
     margin: 50px 10% 0 10%;
     border-radius: 20px;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-}
-.abou_content {
-    display: flex;
-    flex-direction: row;
-}
-.about_header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #836382;
-    border-radius: 25px;
-    min-width: 180px;
-    width: 15%;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-    margin-left: 40%;
-    box-shadow: 15px 15px 0 0 #ea90e9;
 }
 .about_textbox {
     display: flex;
-    position: relative;
     background-color: #a87fa6;
-    width: 80%;
+    width: 45%;
     height: 700px;
-    margin: 30px 10% 50px 10%;
+    margin: 250px 10px 50px 50px;
     border-radius: 25px;
 }
 .about_text {
     position: relative;
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center;
     text-align: center;
-    width: 90%;
-    height: auto;
-    margin: 15px;
-}
-.about_subtitle {
-    margin: 20px 5% 0 5%;
+    width: 625px;
+    height: 150px;
+    margin-left: 20px;
 }
 .bodytext {
     color: white;
     text-align: left;
-    position: relative;
     width: 525px;
     font-size: 22px;
     font-family: "Nunito", sans-serif;
-    font-style: normal; 
+    font-style: normal;
     margin-left: 20px;
     margin-top: 35px;
 }
-.about_button {
-    color: white;
-    font-size: 30px;
-    font-family: "Nunito", sans-serif;
-    text-align: center;
-    justify-content: center;
-    position: relative;
-    padding: 15px;
-    width: 45%;
-    height: 40px;
-    background-color: #836382;
-    border-radius: 20px;
-    cursor: pointer;
-    display: flex;
-    margin: 0 27.5% 0 27.5%;
-}
-.about_button:hover {
-    background-color: #4d3b4c;
-}
 .bluemnts {
     display: flex;
-    width: 50%;
+    width: 690px;
     height: 700px;
-    margin: 0 0 0 0;
+    margin-top: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 25px;
 }
 /* ==========Accomodation============= */
 .accomodation_header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #836382;
-    border-radius: 25px;
-    min-width: 180px;
-    width: 20%;
     text-align: center;
-    padding: 10px;
-    margin-top: 75px;
-    margin-left: 40%;
+    justify-content: center;
+    margin: 75px 730px 0 730px;
+    padding: 12px 35px;
+    background-color: #836382;
+    border-radius: 30px;
+    position: absolute;
     box-shadow: 15px 15px 0 0 #ea90e9;
+    z-index: 50;
 }
 .gallery_subtitle {
     display: flex;
@@ -234,9 +198,8 @@ h1 {
     width: 46%;
     text-align: center;
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 300px;
     margin-left: 26%;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 /*=======Carousel Styling=======*/
 .carousel_slider {
@@ -294,17 +257,16 @@ figure {
 /* ==========Local Attractions============= */
 .local_attractions_header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #836382;
-    border-radius: 25px;
-    min-width: 180px;
-    width: 20%;
     text-align: center;
-    padding: 10px;
-    margin-top: 75px;
-    margin-left: 40%;
+    justify-content: center;
+    width: 20%;
+    margin: 75px 690px 0 690px;
+    padding: 12px 40px;
+    background-color: #836382;
+    border-radius: 30px;
+    position: absolute;
     box-shadow: 15px 15px 0 0 #ea90e9;
+    z-index: 50;
 }
 .la_info_box {
     display: flex;
@@ -337,7 +299,7 @@ figure {
     columns: auto 4;
     width: 100%;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 325px;
 }
 .la_h3 {
     margin: 15px;
@@ -349,31 +311,29 @@ figure {
     font-family: "Nunito", sans-serif;
     margin-top: -10px;
 }
+
 /* ==========Booking============= */
 .booking_header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #836382;
-    border-radius: 25px;
-    min-width: 180px;
-    width: 15%;
     text-align: center;
-    padding: 10px;
-    margin-top: 75px;
-    margin-left: 40%;
+    justify-content: center;
+    padding: 12px 35px;
+    margin: 75px 795px 0 795px;
+    background-color: #836382;
+    border-radius: 30px;
+    position: absolute;
     box-shadow: 15px 15px 0 0 #ea90e9;
+    z-index: 50;
 }
 .package_background {
     display: flex;
     flex-direction: row;
     background-color: #9c359b;
     width: 90%;
-    height: 400px;
+    height: 650px;
     margin: 50px 5% 50px 5%;
     border-radius: 20px;
     justify-content: center;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 .packages {
     display: flex;
@@ -381,7 +341,7 @@ figure {
     background-color: #a87fa6;
     width: 28%;
     height: 250px;
-    margin-top: 75px;
+    margin-top: 275px;
     margin-left: 15px;
     margin-right: 15px;
     border-radius: 20px;
@@ -412,36 +372,17 @@ figure {
     display: flex;
     flex-direction: column;
     background-color: #9c359b;
-    width: 70%;
+    width: 90%;
     height: 800px;
-    margin: 20px 15% 50px 15%;
+    margin: 20px 5% 50px 5%;
     border-radius: 20px;
-    align-items: center;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 .booking_title {
     text-align: center;
-    margin: 40px 40px 70px 40px;
+    margin: 40px;
 }
 .booking_form {
    text-align: center;
-   justify-content: center;
-   width: 40%;
-}
-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-}
-.input {
-    display: flex;
-    justify-content: space-between;
-}
-input, select {
-    padding: 20px;
-    color: #757575;
-    resize: vertical;
 }
 .form_text {
     font-family: "Nunito", sans-serif;
@@ -452,22 +393,16 @@ input, select {
     display: flex;
     background-color: #a87fa6;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     font-family: "Nunito", sans-serif;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
     margin-left: 45%;
     margin-right: 45%;
-    width: 60%;
+    width: 10%;
     border-radius: 30px;
     cursor: pointer;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-}
-.submit:hover {
-    opacity: 0.9;
-    color: #ea90e9;
 }
 /* ===========Footer & Contact============= */
 .footer_background {
@@ -562,63 +497,35 @@ input, select {
 
 /* ===== SMALL DESKTOP: Media queries for laptop/small desktop ===== */
 @media only screen and (max-width: 1366px) { 
-    .la_container {
-        columns: auto 2;
-    }
-    h1 {
-        top: 450px;
-        font-size: 48px;
-    }  
-    h2 {
-        font-size: 30px;
-    }
+
+      
+    
 }
 
 /* ===== TABLET: Media queries for verticle and horizontal ===== */
 @media only screen and (max-width: 1024px) { 
-    .la_container {
-        columns: auto 1;
-    }
-    h1 {
-        top: 300px;
-        font-size: 36px;
-    }    
-    .navigation {
-        font-size: 20px;
-        justify-content: center;
-        float: none;
-        display: inline-block;
-        text-align: center;
-        
-    }
-    h2 {
-        font-size: 24px;
-    }
+
+      
+    
 }
 
 @media only screen and (max-width: 768px) { 
     .navigation {
-        font-size: 18px;
-        justify-content: center;
+        justify-content: left;
         float: none;
         display: block;
-        text-align: center;
-        height: 190px;
+        text-align: left;
+        height: 220px;
     }
 
     .navigation_links {
-        justify-content: center;
+        justify-content: left;
         float: none;
         display: block;
-        text-align: center;
+        text-align: left;
     }   
-    .button {
-        font-size: 20px;
-    }
-    h1 {
-        top: 170px;
-        font-size: 28px;
-    }     
+    
+        
 }
 
 /* ===== MOBILE: Media queries for small mobile resolution. ===== */
